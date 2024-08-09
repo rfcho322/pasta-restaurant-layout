@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Pasta Restaurant</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fe40695223.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="main">
+      <!-- HERO -->
+      <section class="hero">
+        <img src="assets/hero-image.webp" alt="hero image" class="hero-image" />
+        <header class="header">
+          <div class="website-logo">
+            <a href="#">
+              <img src="assets/pasta-logo.svg" alt="product logo" />
+            </a>
+          </div>
+
+          <div class="header-controls">
+            <nav class="header-nav">
+              <ul class="nav-links">
+                <li class="nav-item">
+                  <a href="#" class="active text-white">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#about" class="text-white">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#menu" class="text-white">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#contact" class="text-white">Order Now</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#blog" class="text-white">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="text-white">Location</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header-button">
+              <button type="button" class="cart">
+                <span class="cart-badge">0</span>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+              <button type="button" class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+              <button type="button" class="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+            </div>
+          </div>
+        </header>
+
+        <section class="hero-content">
+          <h1 class="hero-title">
+            <span class="text-primary"> Savor the Deliciousness </span> <br />
+            <span class="text-white"> One Pasta Bowl at a Time </span>
+          </h1>
+          <form action="javascript:void()" class="hero-controls">
+            <div class="hero-input">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Search here" class="" />
+            </div>
+            <button type="submit" class="hero-button">
+              Location
+              <i class="fa-solid fa-caret-down"></i>
+            </button>
+          </form>
+
+          <div class="hero-social-stats">
+            <div class="hero-social-icon">
+              <i class="fa-brands fa-facebook-f"></i>
+              <span class="social-stats text-white">252k</span>
+            </div>
+            <div class="hero-social-icon">
+              <i class="fa-brands fa-x-twitter"></i>
+              <span class="social-stats text-white">62k</span>
+            </div>
+            <div class="hero-social-icon">
+              <i class="fa-brands fa-instagram"></i>
+              <span class="social-stats text-white">55k</span>
+            </div>
+          </div>
+        </section>
+      </section>
+      <!-- ABOUT -->
+      <section id="about" class="about">
+        <div class="about-image1">
+          <img src="assets/about-image1.webp" alt="about image 1" />
+        </div>
+        <div class="about-image2">
+          <img src="assets/about-image2.webp" alt="about image 2" />
+        </div>
+        <div class="about-content">
+          <span class="section-tag text-primary">
+            <i class="fa-solid fa-utensils"></i>
+            About Us
+          </span>
+          <h2 class="about-title text-white">
+            Discover the Art <br />
+            of <span class="text-primary">Pasta Elegance</span>
+          </h2>
+          <p class="about-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce erat
+            orci, interdum ac ultricies ac, sollicitudin in felis. Etiam ante
+            est, sodales a enim et, tempus sollicitudin quam. Suspendisse
+            lacinia rutrum ex, ac fringilla tellus fermentum id. Etiam molestie
+            rhoncus dolor vel eleifend. Proin porta ut odio non dictum.
+            Suspendisse eu lacinia ipsum.<br />
+            <br />
+            In quis tortor nec libero egestas consectetur quis quis nibh.
+            Vivamus vulputate et ante ut rhoncus. Nullam vitae risus
+            sollicitudin lectus ornare pulvinar vel eget quam.
+          </p>
+          <button type="button" class="about-button">
+            <span> Discover Menu </span>
+            <span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </button>
+        </div>
+      </section>
+      <!-- MENU -->
+      <section id="menu" class="menu">
+        <span class="section-tag text-primary">
+          <i class="fa-solid fa-utensils"></i>
+          Order Online Now
+        </span>
+        <h2 class="text-white text-center">
+          Our Signature <span class="text-primary">Creations</span>
+        </h2>
+        <div class="menu-tabs d-none">
+          <button type="button" class="menu-tabItem active">Breakfast</button>
+          <button type="button" class="menu-tabItem">Lunch</button>
+          <button type="button" class="menu-tabItem">Dinner</button>
+          <button type="button" class="menu-tabItem">Dessert</button>
+          <button type="button" class="menu-tabItem">Shake</button>
+        </div>
+
+        <div class="menu-item">
+          <div class="menu-item-container">
+            <div class="menu-item-container__overlay active">
+              <span class="menu-price">$14.99</span>
+              <span class="menu-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </span>
+              <h4 class="menu-title">Fried Egg on Hash Browns</h4>
+              <button type="button" class="menu-orderBtn">Order Now</button>
+            </div>
+            <img src="assets/breakfast1.webp" alt="menu item image" />
+          </div>
+
+          <div class="menu-item-container">
+            <div class="menu-item-container__overlay">
+              <span class="menu-price">$14.99</span>
+              <span class="menu-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </span>
+              <h4 class="menu-title">Fried Egg on Hash Browns</h4>
+              <button type="button" class="menu-orderBtn">Order Now</button>
+            </div>
+            <img src="assets/breakfast1.webp" alt="menu item image" />
+          </div>
+
+          <div class="menu-item-container">
+            <div class="menu-item-container__overlay">
+              <span class="menu-price">$14.99</span>
+              <span class="menu-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </span>
+              <h4 class="menu-title">Fried Egg on Hash Browns</h4>
+              <button type="button" class="menu-orderBtn">Order Now</button>
+            </div>
+            <img src="assets/breakfast1.webp" alt="menu item image" />
+          </div>
+
+          <div class="menu-item-container">
+            <div class="menu-item-container__overlay">
+              <span class="menu-price">$14.99</span>
+              <span class="menu-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </span>
+              <h4 class="menu-title">Fried Egg on Hash Browns</h4>
+              <button type="button" class="menu-orderBtn">Order Now</button>
+            </div>
+            <img src="assets/breakfast1.webp" alt="menu item image" />
+          </div>
+
+          <div class="menu-item-container">
+            <div class="menu-item-container__overlay">
+              <span class="menu-price">$14.99</span>
+              <span class="menu-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </span>
+              <h4 class="menu-title">Fried Egg on Hash Browns</h4>
+              <button type="button" class="menu-orderBtn">Order Now</button>
+            </div>
+            <img src="assets/breakfast1.webp" alt="menu item image" />
+          </div>
+
+          <div class="menu-item-container">
+            <div class="menu-item-container__overlay">
+              <span class="menu-price">$14.99</span>
+              <span class="menu-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </span>
+              <h4 class="menu-title">Fried Egg on Hash Browns</h4>
+              <button type="button" class="menu-orderBtn">Order Now</button>
+            </div>
+            <img src="assets/breakfast1.webp" alt="menu item image" />
+          </div>
+
+          <div class="menu-item-container">
+            <div class="menu-item-container__overlay">
+              <span class="menu-price">$14.99</span>
+              <span class="menu-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </span>
+              <h4 class="menu-title">Fried Egg on Hash Browns</h4>
+              <button type="button" class="menu-orderBtn">Order Now</button>
+            </div>
+            <img src="assets/breakfast1.webp" alt="menu item image" />
+          </div>
+
+          <div class="menu-item-container">
+            <div class="menu-item-container__overlay">
+              <span class="menu-price">$14.99</span>
+              <span class="menu-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </span>
+              <h4 class="menu-title">Fried Egg on Hash Browns</h4>
+              <button type="button" class="menu-orderBtn">Order Now</button>
+            </div>
+            <img src="assets/breakfast1.webp" alt="menu item image" />
+          </div>
+        </div>
+
+        <nav class="pagination">
+          <ul>
+            <li>
+              <a href="#page1">
+                <i class="fa-solid fa-circle"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#page2">
+                <i class="fa-solid fa-circle"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#page3" class="active">
+                <i class="fa-solid fa-circle"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#page4">
+                <i class="fa-solid fa-circle"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#page5">
+                <i class="fa-solid fa-circle"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#page6">
+                <i class="fa-solid fa-circle"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <!-- CONTACT -->
+      <section id="contact" class="contact">
+        <span class="section-tag text-primary">
+          <i class="fa-solid fa-utensils"></i>
+          Book Table
+        </span>
+        <h2 class="text-white">
+          Opening <span class="text-primary">Hours</span>
+        </h2>
+
+        <div class="contact-information">
+          <button type="button" class="contact-button">
+            <i class="fa-solid fa-phone"></i>
+          </button>
+          <span>Call Now</span>
+          <p class="contact-number">+12345 678 910</p>
+          <div class="contact-schedule">
+            <div class="contact-weekdays">
+              <p class="">Monday to Tuesday</p>
+              <p class="">9:00 am - 10:00pm</p>
+            </div>
+            <div class="contact-weekends">
+              <p class="">Friday to Tuesday</p>
+              <p class="">11:00 am - 8:00pm</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel">
+          <button type="button" class="carousel-leftBtn">
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+          <div class="carousel-image-container">
+            <button class="carousel-playBtn">
+              <i class="fa-solid fa-play"></i>
+            </button>
+            <img src="assets/order-online.webp" alt="carousel image" />
+          </div>
+          <button type="button" class="carousel-rightBtn">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+      </section>
+      <!-- TESTIMONIALS -->
+      <section class="testimonials">
+        <span class="section-tag text-primary">
+          <i class="fa-solid fa-utensils"></i>
+          Testimonials
+        </span>
+        <h2 class="text-white">
+          Customer <span class="text-primary">Say</span>
+        </h2>
+        <div class="testimonial-container">
+          <div class="user-avatar-circle">
+            <img src="assets/user-avatar.jpg" alt="user avatar" />
+          </div>
+          <h4 class="testimonial-user">Mr John Smith</h4>
+          <span class="testimonial-profession">Art Director</span>
+          <div class="testimonial-rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="testimonial-statement">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non
+            mattis nibh. Sed sollicitudin elit ipsum, at elementum diam luctus
+            id. Quisque sollicitudin lorem justo, sit amet egestas leo rutrum
+            ut. Duis ornare dui eu est auctor bibendum.
+          </div>
+          <nav class="pagination">
+            <ul>
+              <li>
+                <a href="#page1">
+                  <i class="fa-solid fa-circle"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#page2">
+                  <i class="fa-solid fa-circle"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#page3" class="active">
+                  <i class="fa-solid fa-circle"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#page4">
+                  <i class="fa-solid fa-circle"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#page5">
+                  <i class="fa-solid fa-circle"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <div class="footer-container">
+          <div class="website-logo">
+            <a href="#">
+              <img src="assets/pasta-logo.svg" alt="product logo" />
+            </a>
+          </div>
+
+          <div class="footer-content">
+            <p class="footer-desc">
+              Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+              consectetur, adipisci velit
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-container">
+          <h4 class="footer-title">Open Hours</h4>
+
+          <div class="footer-content">
+            <p>Mon-Fri: 9AM - 6PM</p>
+            <p>Saturday: 9AM - 4PM</p>
+            <p>Sunday: Closed</p>
+          </div>
+        </div>
+
+        <div class="footer-container">
+          <h4 class="footer-title">Contact Us</h4>
+
+          <div class="footer-content">
+            <p>123 Street Name, New York, NY 10011</p>
+            <p>Email: <span class="text-primary">info@yoursite.com</span></p>
+            <p>Contact: <span class="text-primary">+1(800)123-4567</span></p>
+          </div>
+        </div>
+
+        <!-- <div class="footer-container">
+          <h4 class="footer-title">Credits</h4>
+
+          <div class="footer-content">
+            <a
+              href="https://www.freepik.com/free-photo/flat-lay-italian-food-composition-with-copyspace_4773525.htm#fromView=image_search&page=1&position=3&uuid=46853ba3-a9a0-4c0c-8950-d4f0a99378f1"
+              target="_blank"
+              >Hero Image by freepik</a
+            >
+            <a
+              href="https://www.freepik.com/free-photo/spaghetti-pasta-spicy-seafood_1255125.htm"
+              target="_blank"
+              >About Image 1 by mrsiraphol on Freepik</a
+            >
+            <a
+              href="https://www.freepik.com/free-photo/uncooked-pasta-mix-wooden-box-table_6070270.htm"
+              target="_blank"
+              >About Image 2 by freepik</a
+            >
+            <a
+              href="https://www.freepik.com/free-photo/fried-egg-breakfast-with-tomatoes-hash-browns_6009272.htm"
+              target="_blank"
+              >Menu Image by freepik</a
+            >
+            <a
+              href="https://www.freepik.com/free-photo/authentic-italian-pasta_42175047.htm"
+              target="_blank"
+              >Order Now Image by denamorado on Freepik</a
+            >
+          </div>
+        </div> -->
+
+        <div class="footer-container">
+          <h4 class="footer-title">Subscribe Newsletter</h4>
+
+          <div class="footer-content">
+            <form action="javascript:void()" class="footer-input">
+              <input type="text" placeholder="Email Address" />
+              <button type="submit" class="footer-inputBtn">
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="credits">
+        <h4 class="footer-title">Credits</h4>
+        <a
+          href="https://www.freepik.com/free-photo/flat-lay-italian-food-composition-with-copyspace_4773525.htm#fromView=image_search&page=1&position=3&uuid=46853ba3-a9a0-4c0c-8950-d4f0a99378f1"
+          >Image by freepik</a
+        >
+        <a
+          href="https://www.freepik.com/free-photo/spaghetti-pasta-spicy-seafood_1255125.htm"
+          >Image by mrsiraphol on Freepik</a
+        >
+        <a
+          href="https://www.freepik.com/free-photo/uncooked-pasta-mix-wooden-box-table_6070270.htm"
+          >Image by freepik</a
+        >
+        <a
+          href="https://www.freepik.com/free-photo/fried-egg-breakfast-with-tomatoes-hash-browns_6009272.htm"
+          >Image by freepik</a
+        >
+        <a
+          href="https://www.freepik.com/free-photo/authentic-italian-pasta_42175047.htm"
+          >Image by denamorado on Freepik</a
+        >
+      </div> -->
+
+      <div class="footer-copyright">
+        <p>2024 @ Pasta Restaurant | Made with ❤️ by Desert Moon</p>
+        <div class="footer-socials">
+          <a href="#" class="footer-icons active">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+
+          <a href="#" class="footer-icons">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+
+          <a href="#" class="footer-icons">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+
+          <a href="#" class="footer-icons">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
