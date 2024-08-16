@@ -798,10 +798,7 @@ footer {
   .header-nav input:checked ~ .nav-links {
     right: 0;
   }
-  .header-nav input:checked ~ .hamburger {
-    position: fixed;
-    right: 20px;
-  }
+  .header-nav input:checked ~ .hamburger,
   .header-nav input:checked.toggle-menu {
     position: fixed;
     right: 20px;
@@ -874,6 +871,9 @@ footer {
   }
   .nav-links li {
     width: 100%;
+  }
+  .nav-links li a:hover {
+    padding-left: 30px;
   }
   .hero-title {
     font-size: 2.5rem;
