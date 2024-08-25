@@ -247,7 +247,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 10px;
-  min-width: 350px;
+  /* min-width: 350px; */
   padding: 12px 14px;
   border: 1px solid var(--clr-primary);
   border-top-left-radius: 8px;
@@ -876,7 +876,7 @@ footer {
     padding-left: 30px;
   }
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     line-height: 1.4;
   }
   .hero-image {
